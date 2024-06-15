@@ -1,0 +1,67 @@
+{
+	"cSpell.diagnosticLevel": "Hint",
+	"cSpell.ignorePaths": ["**/node_modules/**", "**/.vscode/extensions.json", ".env", "**/dist/**"],
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit",
+		"source.organizeImports": "explicit"
+	},
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
+	"editor.inlayHints.enabled": "on",
+	"editor.quickSuggestions": {
+		"strings": true
+	},
+	"editor.rulers": [120],
+	"eslint.codeActionsOnSave.mode": "all",
+	"eslint.format.enable": true,
+	"eslint.lintTask.enable": true,
+	"npm.packageManager": "pnpm",
+	"typescript.inlayHints.enumMemberValues.enabled": true,
+	"typescript.inlayHints.parameterNames.enabled": "all",
+	"typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+	"typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+	"typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"vsicons.associations.files": [
+		{
+			"extensions": ["settings.json", "setting.json", "extensions.json", "extension.json"],
+			"filename": true,
+			"format": "svg",
+			"icon": "vscode"
+		},
+		{
+			"extensions": ["package.json"],
+			"filename": true,
+			"format": "svg",
+			"icon": "node"
+		},
+		{
+			"extensions": ["tsbuildinfo"],
+			"format": "svg",
+			"icon": "tsconfig_official",
+			"overrides": "tsbuildinfo"
+		},
+		{
+			"extensions": ["env.mjs"],
+			"filename": true,
+			"format": "svg",
+			"icon": "config",
+			"overrides": "mjs"
+		}
+	],
+	"vsicons.associations.folders": [
+		{
+			"extensions": ["backups", "backup"],
+			"format": "svg",
+			"icon": "temp",
+			"overrides": "backup"
+		},
+		{
+			"extensions": ["constants", "constant"],
+			"format": "svg",
+			"icon": "binary",
+			"overrides": "constant"
+		}
+	],
+	"vsicons.presets.tsOfficial": true
+}
