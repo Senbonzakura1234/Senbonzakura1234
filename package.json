@@ -1,12 +1,11 @@
 {
 	"name": "Senbonzakura1234",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Senior JS Developers",
 	"scripts": {
-		"generate-README": "dotenv tsx src/scripts/generateMD.ts",
+		"generate-md": "dotenv tsx src/index.ts",
 		"lint": "eslint --ext .js,.cjs,.mjs,.jsx,.ts,.tsx,.json .",
 		"lint:fix": "eslint --ext .js,.cjs,.mjs,.jsx,.ts,.tsx,.json . --fix",
-		"lint:fixMD": "eslint --ext .md,.mdx . --fix",
 		"prepare": "husky"
 	},
 	"keywords": [],
